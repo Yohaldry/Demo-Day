@@ -9,8 +9,10 @@ const Burbujas = () => {
         <h1 id="Dedicamos"><strong>Somos REMI Tu plataforma confiable para<br/> conseguir servicios<br/> de barberia en tu Ciudad</strong></h1>
 
         <h1 id="Establecimientos"><strong>¿Necesitas un Corte?<br/> Solicita a domicilio<br/> o aparta cita en tu barberia<br/> Favorita</strong></h1>
-  
-       <img className="Pole_Barber" src="https://res.cloudinary.com/dtkirmtfq/image/upload/v1632715749/Imagen9_mbefsx.png" alt="" />
+        
+        <img className="Corte1" src="https://res.cloudinary.com/dtkirmtfq/image/upload/v1632815709/Remi/Imagen4_zxathr.png" alt="" />
+        <img className="Corte2" src="https://res.cloudinary.com/dtkirmtfq/image/upload/v1632815918/Remi/Imagen5_q9wpep.png" alt="" />
+        <h2 className="VamosRegistrate">¿Ya estas usando REMI? ¡ Registrate !</h2>
         </div>
 
         <section className="banner contenedor">
