@@ -18,6 +18,7 @@ const HeaderInicio = () => {
                 <input className="CorreoConstraseña" type="Password" placeholder="Constraseña" />
                 <p className="olvide">Olvide mi contraseña</p>
                 <button className="botonEntrar">Entrar</button>
+                <img className="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="google button" />
         </Header>
         
     </Fragment>
