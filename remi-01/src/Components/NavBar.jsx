@@ -1,8 +1,14 @@
 import React, {Fragment} from 'react'
 import Contenido from './Contenido'
+import { useDispatch } from "react-redux";
+import { startLogout } from "../actions/actionLogin";
 
 
 const NavBar = () => {
+    const dispatch = useDispatch();
+    const handleLogout = () => {
+      dispatch(startLogout());
+    };
 
     
     return (
@@ -33,8 +39,8 @@ const NavBar = () => {
         </div>
 
         <div className="descargarApp">
-        <i class="fas fa-sign-out-alt"></i>
-            <h5>Cerrar Sesion</h5>
+        <i onClick={handleLogout} class="fas fa-sign-out-alt"></i>
+            <h5 onClick={handleLogout}>Cerrar Sesion</h5>
         </div>
 
     </div>
