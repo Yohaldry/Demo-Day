@@ -12,4 +12,4 @@ const header = styled.header`
      opacity: 0.8;
 `;
 
-export const Header = header
+export const Header = header   

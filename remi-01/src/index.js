@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AppEntrada from './Containers/AppEntrada';
-
+import {Provider} from 'react-redux';
+import {store} from './store/store';
+import AppRouter from './routers/AppRouter';
 
 ReactDOM.render(
-  <React.StrictMode>
-        <AppEntrada />
-  </React.StrictMode>,
+  <Provider store={store}>
+        <AppRouter />
+  </Provider>,
   document.getElementById('root')
 );
 
+   

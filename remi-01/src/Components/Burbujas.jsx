@@ -14,11 +14,11 @@ const Burbujas = () => {
         <img className="Corte2" src="https://res.cloudinary.com/dtkirmtfq/image/upload/v1632815918/Remi/Imagen5_q9wpep.png" alt="" />
         <h2 className="VamosRegistrate">¿Ya estas usando REMI? ¡ Registrate !</h2>
         </div>
-
+ 
         <section className="banner contenedor">
             <secrion className="banner_title">
                 <h2> <br/>  </h2>
-             
+               
             </secrion>
             <div className="banner_img">
                 <img src="laptop-support.png" alt=""/>

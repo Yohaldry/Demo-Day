@@ -15,6 +15,7 @@ const AppEntrada = () => {
           
         </div>
     )
-}
+} 
 
 export default AppEntrada
+  
