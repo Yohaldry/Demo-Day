@@ -12,7 +12,7 @@ console.log(datos)
 
     const obtener = async () => {
 
-       let url = 'http://localhost:4000/datos'
+       let url = 'https://api-demoday.herokuapp.com/datos'
 
       fetch(url)
       .then(response =>  response.json())
